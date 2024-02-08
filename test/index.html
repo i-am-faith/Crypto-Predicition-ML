@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sender Page</title>
+</head>
+<body>
+
+  <!-- "Send Name" button with JavaScript onclick event -->
+  <button onclick="sendName()">Send Name</button>
+
+  <script>
+    function sendName() {
+      // Get the name to be sent
+      var nameToSend = "Sourin";
+
+      // Open a new window and pass the name as a query parameter
+      var receiverURL = "receiver.html";
+      var finalURL = receiverURL + "?name=" + encodeURIComponent(nameToSend);
+      window.open(finalURL, "_blank");
+    }
+  </script>
+
+</body>
+</html>

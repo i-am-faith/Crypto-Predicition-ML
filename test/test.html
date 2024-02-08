@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Page</title>
+</head>
+<body>
+
+  <!-- "Send Name" button with JavaScript onclick event -->
+  <button onclick="sendNameToStreamlit()">Send Name</button>
+
+  <script>
+    function sendNameToStreamlit() {
+      // Get the base URL of the Streamlit webpage
+      var streamlitBaseURL = "http://localhost:8501/";
+
+      // Add the query parameter to the URL
+      var queryParameter = "Sourin";
+      var finalURL = streamlitBaseURL + "?name=" + queryParameter;
+
+      // Redirect to the Streamlit webpage with the query parameter
+      window.location.href = finalURL;
+    }
+  </script>
+
+</body>
+</html>
