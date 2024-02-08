@@ -70,9 +70,9 @@ elif selected_page == "About":
     st.title("About Us")
 
     st.write(
-        "Welcome to My Cryptocurrency Price Prediction Application! I am Sourin Mukherjee "
-        "dedicated to providing you with accurate and insightful cryptocurrency price predictions."
-        "⭐THIS WEBSITE IS USED FOR TRAINING AND DEVELOPMENT PURPOSES⭐"
+        "1. Welcome to My Cryptocurrency Price Prediction Application!\n"
+        "2. I am Sourin Mukherjee ,dedicated to providing you with accurate and insightful cryptocurrency price predictions.\n"
+        "3. ⭐THIS WEBSITE IS USED FOR TRAINING AND DEVELOPMENT PURPOSES⭐"
     )
 
     st.subheader("Our Mission")
