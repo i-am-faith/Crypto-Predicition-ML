@@ -1,0 +1,10 @@
+streamlit
+plotly==5.3.1
+requests==2.26.0
+numpy
+pandas
+tensorflow
+keras
+matplotlib
+scikit-learn
+streamlit_extras==0.2.4

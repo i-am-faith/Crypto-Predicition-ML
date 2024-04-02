@@ -1,0 +1,18 @@
+
+{
+    "api_key": "72bc7d2410d6afc7d9a2501574352ccd",
+    "setting": "default",
+    "city": "Bhubaneshwar",
+    "country": "India",
+    "date": "2022-02-12",
+    "time": "12:00:00",
+    "temperature": {
+      "current": 36,  
+      "average": 32   
+    },
+    "weather_conditions": {
+      "cloud_coverage": 12,  
+      "rain": 20            
+    }
+  }
+  
