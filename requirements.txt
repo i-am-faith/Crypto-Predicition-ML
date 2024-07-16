@@ -3,6 +3,7 @@ pandas
 yfinance
 tensorflow
 keras
+pywrap
 streamlit
 matplotlib
 scikit-learn
